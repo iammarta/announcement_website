@@ -1,0 +1,90 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    color: #00c9b7;
+    background-color: transparent;
+    border: 2px solid #00c9b7;
+  }
+  .nav-link {
+    color: #00c9b7;
+    font-size: 25px;
+  }
+  .nav-link:hover {
+    color: #00c9b7;
+  }
+  .main {
+    background-image: linear-gradient(
+      to right top,
+      #051937,
+      #004d7a,
+      #008793,
+      #00bf72,
+      #a8eb12
+    );
+  }
+  .title,
+  .descr {
+    width: 50%;
+  }
+  .add {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .add-btn {
+    background-color: #00c9b7;
+    border-color: #00c9b7;
+  }
+  i.fa.fa-trash {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+  .card-body {
+    text-align: center;
+  }
+  button#edit {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  #v-pills-home i.fa.fa-trash {
+    display: none;
+  }
+  #v-pills-home i.fa.fa-edit {
+    display: none;
+  }
+  #v-pills-home i.fa.fa-save {
+    display: none;
+  }
+  .edit {
+    display: flex;
+    justify-content: center;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .text {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .list-title {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .card-body input[type="text"] {
+    border: none !important;
+  }
+  
